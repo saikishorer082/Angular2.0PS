@@ -31,3 +31,36 @@ c:\users\saikishorereddy\documents\visual studio 2015\Projects\Angular2.0PS\Angu
 c:\users\saikishorereddy\documents\visual studio 2015\Projects\Angular2.0PS\Angular2.0PS\obj\Debug\Angular2.0PS.csprojResolveAssemblyReference.cache
 c:\users\saikishorereddy\documents\visual studio 2015\Projects\Angular2.0PS\Angular2.0PS\obj\Debug\Angular2.0PS.dll
 c:\users\saikishorereddy\documents\visual studio 2015\Projects\Angular2.0PS\Angular2.0PS\obj\Debug\Angular2.0PS.pdb
+D:\Git\Projects\Angular2.0PS\bin\ApplicationInsights.config
+D:\Git\Projects\Angular2.0PS\bin\roslyn\csc.exe
+D:\Git\Projects\Angular2.0PS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Git\Projects\Angular2.0PS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Git\Projects\Angular2.0PS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Git\Projects\Angular2.0PS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Git\Projects\Angular2.0PS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Git\Projects\Angular2.0PS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Git\Projects\Angular2.0PS\bin\roslyn\System.Collections.Immutable.dll
+D:\Git\Projects\Angular2.0PS\bin\roslyn\System.Reflection.Metadata.dll
+D:\Git\Projects\Angular2.0PS\bin\roslyn\vbc.exe
+D:\Git\Projects\Angular2.0PS\bin\roslyn\VBCSCompiler.exe
+D:\Git\Projects\Angular2.0PS\bin\roslyn\VBCSCompiler.exe.config
+D:\Git\Projects\Angular2.0PS\bin\Angular2.0PS.dll.config
+D:\Git\Projects\Angular2.0PS\bin\Angular2.0PS.dll
+D:\Git\Projects\Angular2.0PS\bin\Angular2.0PS.pdb
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.AI.DependencyCollector.dll
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.AI.Web.dll
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.AI.WindowsServer.dll
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.ApplicationInsights.dll
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.AI.DependencyCollector.xml
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.AI.Web.xml
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.AI.WindowsServer.xml
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.ApplicationInsights.xml
+D:\Git\Projects\Angular2.0PS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Git\Projects\Angular2.0PS\obj\Debug\Angular2.0PS.csprojResolveAssemblyReference.cache
+D:\Git\Projects\Angular2.0PS\obj\Debug\Angular2.0PS.dll
+D:\Git\Projects\Angular2.0PS\obj\Debug\Angular2.0PS.pdb

@@ -108,7 +108,7 @@
     <Content Include="app\app.module.js.map" />
     <Content Include="app\home\welcome.component.js.map" />
     <Content Include="app\main.js.map" />
-    <Content Include="app\Products\product-list.component.css" />
+    <Content Include="app\products\product-list.component.css" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -124,7 +124,7 @@
     <Content Include="app\home\welcome.component.html" />
     <Content Include="app\home\welcome.component.js" />
     <Content Include="app\main.js" />
-    <Content Include="app\Products\product-list.component.html" />
+    <Content Include="app\products\product-list.component.html" />
     <Content Include="app\shared\star.component.css" />
     <Content Include="app\shared\star.component.html" />
     <Content Include="index.html" />
@@ -139,9 +139,10 @@
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\home\welcome.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
-    <TypeScriptCompile Include="app\Products\product-filter.pipe.ts" />
-    <TypeScriptCompile Include="app\Products\product-list.component.ts" />
-    <TypeScriptCompile Include="app\Products\product.ts" />
+    <TypeScriptCompile Include="app\products\product-filter.pipe.ts" />
+    <TypeScriptCompile Include="app\products\product-list.component.ts" />
+    <TypeScriptCompile Include="app\products\product.service.ts" />
+    <TypeScriptCompile Include="app\products\product.ts" />
     <TypeScriptCompile Include="app\shared\star.component.ts" />
   </ItemGroup>
   <ItemGroup>
