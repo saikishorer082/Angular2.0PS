@@ -1,28 +1,33 @@
-﻿import { Injectable } from '@angular/core';
+﻿import { Injectable, OnInit } from '@angular/core';
 import { IProduct } from './product';
+import { ActivatedRoute } from '@angular/router';
 import { Http, Response } from "@angular/http";
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/do';
 import 'rxjs/add/operator/catch';
-import 'rxjs/add/observable/throw';
 
 @Injectable()
 
-export class ProductService {
-    private _productUrl = 'app/products/products.json';
-    constructor(private _http: Http) {
+export class ProductDetailService {
+    
+    constructor(private _http: Http,
+        private _route: ActivatedRoute) {
 
     }
-    getProducts(): Observable<IProduct[]> {
+    //ngOnInit(): void {
+    //    let id = +this._route.snapshot.params['id'];
+        
+    //}
+
+    id: number = +this._route.snapshot.params['id'];
+    private _productUrl = 'app/products/products.json' +this.id;
+    
+    getProductDetails(): Observable<IProduct[]> {
         return this._http.request(this._productUrl)
             .map((response: Response) => <IProduct[]>response.json())
             .do(data => console.log('All: ' + JSON.stringify(data)))
             .catch(this.handelError);
-    }
-    getProduct(id: number): Observable<IProduct> {
-        return this.getProducts()
-            .map((products: IProduct[]) => products.find(p => p.productId === id));
     }
     private handelError(error: Response) {
         console.log(error);

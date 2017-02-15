@@ -9,36 +9,38 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
+var router_1 = require("@angular/router");
 var http_1 = require("@angular/http");
 var Observable_1 = require("rxjs/Observable");
 require("rxjs/add/operator/map");
 require("rxjs/add/operator/do");
 require("rxjs/add/operator/catch");
-require("rxjs/add/observable/throw");
-var ProductService = (function () {
-    function ProductService(_http) {
+var ProductDetailService = (function () {
+    function ProductDetailService(_http, _route) {
         this._http = _http;
-        this._productUrl = 'app/products/products.json';
+        this._route = _route;
+        //ngOnInit(): void {
+        //    let id = +this._route.snapshot.params['id'];
+        //}
+        this.id = +this._route.snapshot.params['id'];
+        this._productUrl = 'app/products/products.json' + this.id;
     }
-    ProductService.prototype.getProducts = function () {
+    ProductDetailService.prototype.getProductDetails = function () {
         return this._http.request(this._productUrl)
             .map(function (response) { return response.json(); })
             .do(function (data) { return console.log('All: ' + JSON.stringify(data)); })
             .catch(this.handelError);
     };
-    ProductService.prototype.getProduct = function (id) {
-        return this.getProducts()
-            .map(function (products) { return products.find(function (p) { return p.productId === id; }); });
-    };
-    ProductService.prototype.handelError = function (error) {
+    ProductDetailService.prototype.handelError = function (error) {
         console.log(error);
         return Observable_1.Observable.throw(error.json().error || 'Server error');
     };
-    return ProductService;
+    return ProductDetailService;
 }());
-ProductService = __decorate([
+ProductDetailService = __decorate([
     core_1.Injectable(),
-    __metadata("design:paramtypes", [http_1.Http])
-], ProductService);
-exports.ProductService = ProductService;
-//# sourceMappingURL=product.service.js.map
+    __metadata("design:paramtypes", [http_1.Http,
+        router_1.ActivatedRoute])
+], ProductDetailService);
+exports.ProductDetailService = ProductDetailService;
+//# sourceMappingURL=product-detail.service.js.map

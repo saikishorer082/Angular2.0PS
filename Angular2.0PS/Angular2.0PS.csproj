@@ -138,8 +138,10 @@
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\home\welcome.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
+    <TypeScriptCompile Include="app\products\product-detail.service.ts" />
     <TypeScriptCompile Include="app\products\product-details.component.ts" />
     <TypeScriptCompile Include="app\products\product-filter.pipe.ts" />
+    <TypeScriptCompile Include="app\products\product-guard.service.ts" />
     <TypeScriptCompile Include="app\products\product-list.component.ts" />
     <TypeScriptCompile Include="app\products\product.service.ts" />
     <TypeScriptCompile Include="app\products\product.ts" />
