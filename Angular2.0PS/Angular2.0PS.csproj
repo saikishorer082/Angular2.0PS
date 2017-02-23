@@ -96,6 +96,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app-component.html" />
     <Content Include="app\products\product-detail.component.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -144,6 +145,7 @@
     <TypeScriptCompile Include="app\products\product-filter.pipe.ts" />
     <TypeScriptCompile Include="app\products\product-guard.service.ts" />
     <TypeScriptCompile Include="app\products\product-list.component.ts" />
+    <TypeScriptCompile Include="app\products\product-routing.module.ts" />
     <TypeScriptCompile Include="app\products\product.module.ts" />
     <TypeScriptCompile Include="app\products\product.service.ts" />
     <TypeScriptCompile Include="app\products\product.ts" />
