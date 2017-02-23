@@ -143,6 +143,7 @@
     <TypeScriptCompile Include="app\products\product-filter.pipe.ts" />
     <TypeScriptCompile Include="app\products\product-guard.service.ts" />
     <TypeScriptCompile Include="app\products\product-list.component.ts" />
+    <TypeScriptCompile Include="app\products\product.module.ts" />
     <TypeScriptCompile Include="app\products\product.service.ts" />
     <TypeScriptCompile Include="app\products\product.ts" />
     <TypeScriptCompile Include="app\shared\star.component.ts" />
